@@ -1,9 +1,21 @@
+/**
+ * Programa para mostrar el mensaje de Eres genial en el servidor de acuerdo
+ * con la URL especificada que se ingresa en el navegador.
+ * @author Cristian Suárez Acosta
+ */
+
+/**
+ * Declaración de atributos.
+ */
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+/**
+ * Funciones para acceder a las rutas especificadas.
+ */
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
